@@ -3,7 +3,7 @@ import Logo from "../../assets/brand/Logo.png";
 import DarkMode from '../DarkMode';
 import { BiMenuAltRight, BiMenuAltLeft } from 'react-icons/bi';
 import SideBarView from "./SideBarView";
-const MenuLinks = [
+export const MenuLinks = [
     {
         id: 1,
         name: "About",
