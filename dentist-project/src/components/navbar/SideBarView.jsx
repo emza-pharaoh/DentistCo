@@ -7,7 +7,7 @@ const SideBarView = ({showMenu}) => {
     <div className={`${showMenu ? "left-0" : "left-[-100%]"}
      fixed bottom-0 top-0 w-[75%]
      transition-all duration-300 pt-10 px-8 
-     bg-white dark:bg-gray-900 shadow-2xl` }>
+     bg-white dark:bg-gray-900 shadow-2xl z-50` }>
         <div className='card'>
             {/* User section */}
           <div className="flex items-center justify-start gap-3">
