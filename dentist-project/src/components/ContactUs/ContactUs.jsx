@@ -12,7 +12,7 @@ const ContactUs = () => {
 
             {/* Left Adress Section */}
             
-            <div className="bg-gray-50 dark:bg-gray-800 rounded-md flex flex-col gap-9 mb-10">
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-xl flex flex-col gap-9 mb-10 p-5">
             
             <h1 className="text-4xl font-semibold">Get in touch</h1>
 
@@ -25,22 +25,22 @@ const ContactUs = () => {
             <div className='flex flex-col gap-2 mb-5'>
                 <div className='flex row gap-4 items-center'>
                     <FaRegBuilding className="size-5"/>
-                    <p className='text-gray-800'>9 Santa Diana,<br/>15 Holzner, Durban, 3610</p>
+                    <p className='text-gray-800 dark:text-gray-300'>9 Santa Diana,<br/>15 Holzner, Durban, 3610</p>
                 </div>
                 <div className='flex row gap-4 items-center'>
                     <BsTelephone className="size-5"/>
-                    <p className='text-gray-800'>+27 98 876 5621 </p>
+                    <p className='text-gray-800 dark:text-gray-300'>+27 98 876 5621 </p>
                 </div>
                 <div className='flex row gap-4 items-center'>
                     <CiMail className="size-5"/>
-                    <p className='text-gray-800'>bookingA@dentistco.co.za </p>
+                    <p className='text-gray-800 dark:text-gray-300'>bookingA@dentistco.co.za </p>
                 </div>
                 
             </div>
 
             </div>
             {/* Contact Form Section */}
-            <div className=''>
+            <div className='pt-5'>
                 <div className=' rounded-md flex flex-col gap-3 m-1 h-full'>
                     {/* First Name & Last Name */}
                     <div className='flex flex-row gap-2 ml-5 mr-5'>

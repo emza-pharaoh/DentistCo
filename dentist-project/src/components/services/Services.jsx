@@ -40,7 +40,7 @@ const ServiceData = [
 const Services = () => {
   return (
     <>
-    <div className="bg-gray-100 dark:bg-gray-900 dark:text-white py-12 sm:grid sm:place-items-center">
+    <div className="bg-gray-200 dark:bg-gray-800 dark:text-white py-12 sm:grid sm:place-items-center">
         <div className="container">
             {/* Header Section */}
             <div className="text-center pb-12 space-y-3">

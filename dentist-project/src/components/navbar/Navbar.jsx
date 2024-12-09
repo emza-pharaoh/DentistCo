@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className='bg-white dark:bg-black dark:text-white'>
+    <nav className='bg-gray-200 dark:bg-black dark:text-white'>
         <div className="container py-3 md:py-2">
             <div className="flex justify-between items-center">
                 {/* Logo */}
@@ -45,7 +45,7 @@ const Navbar = () => {
                         
                 </div>
                 {/* Desktop NavLinks */}
-                <div className=' hidden md:block'>
+                <div className=' hidden md:block xl:pl-[550px] '>
                     <ul className='flex items-center gap-8'>
                         {
                             MenuLinks.map(({id, name, link}) => {
