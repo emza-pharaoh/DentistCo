@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero"
 import Services from './components/services/Services';
 import ContactUs from './components/ContactUs/ContactUs'
 import GoogleMap from './components/GoogleMaps/GoogleMap'
+import DrInfo from './components/DrInfo/DrInfo';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Services />
         <ContactUs />
         <GoogleMap />
+        <DrInfo />
       </div>
     </div>
   )
