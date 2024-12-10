@@ -50,7 +50,7 @@ const dentistDetails = [
 
 
 const DrInfo = () => {
-
+    // Settings for the Slider
     const settings = {
         dots: true,
         arrows: false,
@@ -66,24 +66,26 @@ const DrInfo = () => {
 
   return (
     <>
-        <div className="py-10">
+        <div className="py-10 bg-white dark:bg-gray-900 dark:text-white">
             <div className="container">
             {/* Doctor Info Section */}
              <div>
                 <Slider {...settings} className=" p-1">
                     {dentistDetails.map((Info) => {
                         return(
-                        <div key={Info.id} className="w-full shadow-md rounded-2xl">
+                        <div key={Info.id} className="w-full shadow-md rounded-2xl dark:bg-gray-800">
                             
-                            <h1 className="text-3xl text-center font-semibold text-violet-900 animate-bounce p-6 drop-shadow-2xl">Our Specialists</h1>
+                            <h1 className="text-3xl text-center font-semibold
+                             text-violet-900 dark:text-primary 
+                              p-6 drop-shadow-2xl"> Our Specialists</h1>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 pl-7 pb-5 md:pb-1">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 pl-7 pb-5 md:pb-1">
                                  {/* Dentist Image */}
                             <div className='w-[300px]'>
                                 <img src={Info.image} alt="" className='max-w-[480px] h-[420px] md:pl-[50%] md:pb-10'/>
                             </div>
                             {/* Text Section */}
-                            <div className='flex flex-col items-start gap-2'>
+                            <div className='flex flex-col items-start gap-2 md:pr-16 md:pt-10'>
                                 <div className="text-4xl font-poppins">{Info.name}</div>
                                 <div className="text-2xl font-thin">{Info.title}</div>
                                 <div className="text-base font-thin">{Info.qualification}</div>

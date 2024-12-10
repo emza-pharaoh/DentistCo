@@ -5,7 +5,7 @@ import Services from './components/services/Services';
 import ContactUs from './components/ContactUs/ContactUs'
 import GoogleMap from './components/GoogleMaps/GoogleMap'
 import DrInfo from './components/DrInfo/DrInfo';
-
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <div className='overflow-x-hidden bg-white dark:bg-gray-900' >
@@ -16,6 +16,7 @@ const App = () => {
         <ContactUs />
         <GoogleMap />
         <DrInfo />
+        <Footer />
       </div>
     </div>
   )
