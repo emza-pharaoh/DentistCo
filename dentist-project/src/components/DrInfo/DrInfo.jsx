@@ -1,6 +1,5 @@
 import React from 'react'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 import { BsTelephone } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
@@ -55,10 +54,10 @@ const DrInfo = () => {
         dots: true,
         arrows: false,
         infinite: true,
-        speed: 600,
+        speed: 1000,
         slidesToShow: 1,
-        autoplay: false,
-        autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 5000,
         cssEase: "Linear",
         pauseOnHover: true,
         pauseOnFocus: true,
@@ -69,7 +68,7 @@ const DrInfo = () => {
         <div className="py-10 bg-white dark:bg-gray-900 dark:text-white">
             <div className="container">
             {/* Doctor Info Section */}
-             <div>
+             <div data-aos="fade-in" data-aos-delay="500" >
                 <Slider {...settings} className=" p-1">
                     {dentistDetails.map((Info) => {
                         return(

@@ -75,7 +75,7 @@ const Footer = () => {
     <>
     <div className="container bg-black text-white">
         <div className="grid md:grid-cols-4">
-            <div className='p-10'>
+            <div data-aos="fade-in" data-aos-delay="300"  className='p-10'>
                 <h1 className='sm:text-3xl text-xl sm:text-left text-justify mb-3 gap-3 items-center font-poppins'>DentistCo</h1>
                 <p className="text-sm">
                 At DentistCo, we are dedicated to delivering exceptional dental care with a personalized touch.
@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
 
             {/* FooterLinks*/}
-            <div>
+            <div data-aos="fade-down" data-aos-delay="500" >
                 <div className="py-8 px-4">
                     <h1 className="text-xl font-bold mb-3">
                         Company
@@ -119,7 +119,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* HelpLinks */}
-            <div>
+            <div data-aos="fade-down" data-aos-delay="700" >
                 <div className="py-8 px-4">
                     <h1 className="text-xl font-bold mb-3">
                         Help
@@ -138,7 +138,7 @@ const Footer = () => {
             </div>
 
             {/* ResourceLinks */}
-            <div>
+            <div data-aos="fade-down" data-aos-delay="900" >
                 <div className="py-8 px-4">
                     <h1 className="text-xl font-bold mb-3">
                         Resources
@@ -157,8 +157,8 @@ const Footer = () => {
             </div>
         </div>
         {/* Copyright Text */}
-        <div className='text-center pb-2'>
-            <h1 className="text-base font-thin"><span className='text-lg font-semibold'>DentistCo</span> © Copyright All Rights Reserved 2024 | Website Designed By  <span className='font-semibold text-gray-300 shadow-xl'>Holllow World Studio</span></h1>
+        <div   className='text-center pb-5'>
+            <h1  className="text-base font-thin"><span className='text-lg font-semibold'>DentistCo</span> © Copyright All Rights Reserved 2024 | Website Designed By  <span className='font-semibold text-gray-300 shadow-xl'>Emanuel Mhlanga</span></h1>
         </div>
     </div>
     </>

@@ -8,7 +8,7 @@ const ContactUs = () => {
     <>
     <div>
         <div className="container bg-white dark:bg-gray-900 dark:text-white mt-10 mb-10">
-            <div className="grid md:grid-cols-2 sm:grid-cols-1">
+            <div data-aos="fade-up" data-aos-delay="200"  className="grid md:grid-cols-2 sm:grid-cols-1">
 
             {/* Left Adress Section */}
             

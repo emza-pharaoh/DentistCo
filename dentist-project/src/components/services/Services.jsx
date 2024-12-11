@@ -44,21 +44,23 @@ const Services = () => {
         <div className="container">
             {/* Header Section */}
             <div className="text-center pb-12 space-y-3">
-                <h1 className="text-3xl font-semibold text-violet-950 dark:text-primary">Explore Our Services</h1>
-                <p>We Are Dental Healthcare Professionals Who Ensure 5 Star Dental Health To All Our Clients</p>
+                <h1 data-aos="fade-in" data-aos-delay="400" className="text-3xl font-semibold text-violet-950 dark:text-primary">Explore Our Services</h1>
+                <p data-aos="fade-in" data-aos-delay="700" data-aos-easing="ease-in" >We Are Dental Healthcare Professionals Who Ensure 5 Star Dental Health To All Our Clients</p>
             </div>
             {/* Card Section */}
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5'>
                 {ServiceData.map((service) => {
                 return (
-                <div key={service.name} className="card space-y-3 sm:space-y-4 p-4">
+                <div data-aos="fade-up"
+                data-aos-delay={service.aosDelay} 
+                key={service.name} className="card space-y-3 sm:space-y-4 p-4">
                     <h3 className='text-lg font-semibold '>{service.name}</h3>
                     {service.icon}
                     <p className='text-gray-600 dark:text-gray-400'>{service.description}</p>
                 </div>);})}
             </div>
             {/* btn Section */}
-            <div className='text-center mt-6'>
+            <div data-aos="fade-up" data-aos-delay="200" className='text-center mt-6'>
                 <button className="btn-primary " >Lear More</button>
             </div>
             

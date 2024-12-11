@@ -3,7 +3,7 @@ import React from 'react'
 const GoogleMap = () => {
   return (
     <>
-    <div className='text-center  bg-white dark:bg-slate-800 rounded-2xl'>
+    <div data-aos="zoom-in" data-aos-delay="400"  className='text-center  bg-white dark:bg-slate-800 rounded-2xl'>
 
     <h1 className='text-4xl font-semibold text-violet-900 dark:text-violet-300 animate-pulse'>Locate Us</h1>
 
