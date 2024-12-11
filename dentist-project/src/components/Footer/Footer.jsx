@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
 
             {/* FooterLinks*/}
-            <div data-aos="fade-in" data-aos-delay="500" >
+            <div data-aos="fade-down" data-aos-delay="500" >
                 <div className="py-8 px-4">
                     <h1 className="text-xl font-bold mb-3">
                         Company
@@ -119,7 +119,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* HelpLinks */}
-            <div data-aos="fade-in" data-aos-delay="700" >
+            <div data-aos="fade-down" data-aos-delay="700" >
                 <div className="py-8 px-4">
                     <h1 className="text-xl font-bold mb-3">
                         Help
